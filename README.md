@@ -33,10 +33,6 @@ REQUIRED SECTIONS:
 - Acknowledgements
 - License
 
-After you're finished please remove all the comments and instructions!
--->
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -63,14 +59,12 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
-
+**[Vet Clinic]** is a a project designed to contain the data of animals, their species and owners in a database.
 ## 🛠 Built With <a name="built-with"></a>
 
+- sql
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -96,29 +90,23 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Vet clinic database]**
+- **[Animals table]**
+- **[Owners Table]**
+- **[Species Table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](<Will be displayed when availableL>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -130,97 +118,55 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
+- Have a local version control like git install on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Have a pgAdmin and postgress app installed on your computer
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
+- Copy [this link](https://github.com/RitaDee/vet-clinic)
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write git clone https://github.com/RitaDee/vet-clinic.git
+- Go to the repository folder in your command prompt cd vet-clinic
 ### Install
-
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+- Clone the git repo using this command: https://github.com/RitaDee/vet-clinic.git
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- 1 create vet_clinic database
+- 2 Run Queries.sql
+- 3 to insert data into the table run data.sql
+- 4 execute queries
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+No test for this project.
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+No deployment for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Rita Nkem Daniel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- GitHub: [@RitaDee](https://github.com/RitaDee)
+- Twitter: [@durdana_dee](https://twitter.com/durdana_dee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rita-daniel/)
 
 <!-- FUTURE FEATURES -->
 
@@ -228,9 +174,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[I will query the name in ascending order]**
+- [ ] **[I will add more animals to the table]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,23 +205,21 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse for providing the resources and the platform for us to be a Professional full-stack developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[If you are asked to perform similar query on a different database, Can you do it?]**
 
-  - [Answer_1]
+  - [Yes]
 
-- **[Question_2]**
+- **[Can you perform inner join]**
 
-  - [Answer_2]
+  - [Yes]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
