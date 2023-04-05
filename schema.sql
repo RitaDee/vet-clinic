@@ -8,3 +8,8 @@
    weight_kg decimal
 );
 
+ALTER TABLE animals ADD COLUMN species VARCHAR(70);
+
+CREATE TABLE species (
+id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+name VARCHAR(100) NOT NULL);
