@@ -16,3 +16,19 @@ BEGIN TRANSACTION;
 UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species = 'pokemon' WHERE species != 'digimon' OR species IS NULL;
 COMMIT TRANSACTION;
+
+BEGIN TRANSACTION;
+DELETE FROM animals;
+ROLLBACK TRANSACTION;
+
+BEGIN TRANSACTION;
+DELETE FROM animals WHERE date_of_birth  > '2022-01-01';
+SAVEPOINT del2022;
+UPDATE animals SET weight_kg = weight_kg * -1;
+ROLLBACK TO del2022;
+UPDATE animals SET weight_kg = weight_kg * -1 WHERE  weight_kg < 0;
+COMMIT TRANSACTION;
+
+SELECT COUNT (*) FROM animals;
+SELECT COUNT (*) FROM animals WHERE escape_attempts != 0;
+SELECT AVG(weight_kg) FROM animals;
