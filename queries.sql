@@ -10,6 +10,7 @@ SELECT * from animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 
 BEGIN TRANSACTION;
 UPDATE animals SET species = 'unspecified';
+SELECT * FROM animals
 ROLLBACK TRANSACTION;
 
 BEGIN TRANSACTION;
