@@ -46,7 +46,7 @@ CREATE TABLE visits (
 	id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 	animal_id INT REFERENCES animals(id),	
 	vet_id INT REFERENCES vets(id),	
-	date_of_graduation DATE 
+	date_of_visit DATE 
 );
 
 ALTER TABLE animals ADD CONSTRAINT unique_animal_id UNIQUE (id);
